@@ -3,8 +3,11 @@ import { render } from 'react-dom';
 import Header from './Components/Header/Header';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
+    this.state = {
+      name: 'React'
+    };
   }
 
   render() {
